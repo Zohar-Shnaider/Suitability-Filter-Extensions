@@ -1,0 +1,238 @@
+{
+  "tv_distances": {
+    "logits": 1.0,
+    "softmax": 1.0,
+    "logits_pca": 1.0
+  },
+  "shift_detection_auc": [
+    {
+      "signal": "conf_max",
+      "type": "Individual",
+      "auc": 0.5421849202313149
+    },
+    {
+      "signal": "conf_std",
+      "type": "Individual",
+      "auc": 0.5420998642122656
+    },
+    {
+      "signal": "conf_entropy",
+      "type": "Individual",
+      "auc": 0.5424224197818652
+    },
+    {
+      "signal": "logit_mean",
+      "type": "Individual",
+      "auc": 0.504407674427754
+    },
+    {
+      "signal": "logit_max",
+      "type": "Individual",
+      "auc": 0.542679636419392
+    },
+    {
+      "signal": "logit_std",
+      "type": "Individual",
+      "auc": 0.5278974617713738
+    },
+    {
+      "signal": "logit_diff_top2",
+      "type": "Individual",
+      "auc": 0.5417024236454958
+    },
+    {
+      "signal": "loss",
+      "type": "Individual",
+      "auc": 0.542184920231315
+    },
+    {
+      "signal": "margin_loss",
+      "type": "Individual",
+      "auc": 0.5417024276388299
+    },
+    {
+      "signal": "class_prob_ratio",
+      "type": "Individual",
+      "auc": 0.5417024216488289
+    },
+    {
+      "signal": "top_k_probs_sum",
+      "type": "Individual",
+      "auc": 0.5443841151943343
+    },
+    {
+      "signal": "energy",
+      "type": "Individual",
+      "auc": 0.5427551843100179
+    },
+    {
+      "signal": "Combined (12 signals + LR)",
+      "type": "Combined",
+      "auc": 0.5672502584465349
+    },
+    {
+      "signal": "TV Distance (logits)",
+      "type": "TV Distance",
+      "auc": 1.0
+    },
+    {
+      "signal": "TV Distance (softmax)",
+      "type": "TV Distance",
+      "auc": 1.0
+    }
+  ],
+  "ablation_results": [
+    {
+      "method": "All 12 Signals",
+      "type": "Combined",
+      "auc": 0.8202371361640586,
+      "accuracy": 0.7406368735299439
+    },
+    {
+      "method": "conf_entropy",
+      "type": "Individual Signal",
+      "auc": 0.7993597905025975,
+      "accuracy": 0.6898860141125385
+    },
+    {
+      "method": "logit_max",
+      "type": "Individual Signal",
+      "auc": 0.7989606288987828,
+      "accuracy": 0.7258910801519812
+    },
+    {
+      "method": "energy",
+      "type": "Individual Signal",
+      "auc": 0.7975008445761005,
+      "accuracy": 0.7260267776370545
+    },
+    {
+      "method": "conf_std",
+      "type": "Individual Signal",
+      "auc": 0.7974653964771955,
+      "accuracy": 0.6769947530305772
+    },
+    {
+      "method": "conf_max",
+      "type": "Individual Signal",
+      "auc": 0.7965067419492606,
+      "accuracy": 0.6705265062420843
+    },
+    {
+      "method": "loss",
+      "type": "Individual Signal",
+      "auc": 0.7965067419492606,
+      "accuracy": 0.6636059345033472
+    },
+    {
+      "method": "logit_diff_top2",
+      "type": "Individual Signal",
+      "auc": 0.7918414478253206,
+      "accuracy": 0.7248507327664194
+    },
+    {
+      "method": "margin_loss",
+      "type": "Individual Signal",
+      "auc": 0.7918414437201556,
+      "accuracy": 0.7248507327664194
+    },
+    {
+      "method": "class_prob_ratio",
+      "type": "Individual Signal",
+      "auc": 0.7917690860836413,
+      "accuracy": 0.5283607743803148
+    },
+    {
+      "method": "Raw Logits (Full)",
+      "type": "Ours (TV-inspired)",
+      "auc": 0.7771440297187009,
+      "accuracy": 0.6883933417767324
+    },
+    {
+      "method": "top_k_probs_sum",
+      "type": "Individual Signal",
+      "auc": 0.7756438095217609,
+      "accuracy": 0.6185543694590193
+    },
+    {
+      "method": "Raw Logits (PCA-12)",
+      "type": "Ours (TV-inspired)",
+      "auc": 0.7738794876461917,
+      "accuracy": 0.6857246245702913
+    },
+    {
+      "method": "logit_mean",
+      "type": "Individual Signal",
+      "auc": 0.7521197449999646,
+      "accuracy": 0.6641034919486158
+    },
+    {
+      "method": "logit_std",
+      "type": "Individual Signal",
+      "auc": 0.6333840408775242,
+      "accuracy": 0.5541432965442373
+    }
+  ],
+  "high_corr_pairs": [
+    [
+      "conf_max",
+      "conf_std",
+      0.9921349185883707
+    ],
+    [
+      "conf_max",
+      "conf_entropy",
+      -0.9624458570470585
+    ],
+    [
+      "conf_max",
+      "loss",
+      -0.9885237947150011
+    ],
+    [
+      "conf_std",
+      "conf_entropy",
+      -0.9859675831516983
+    ],
+    [
+      "conf_std",
+      "loss",
+      -0.974584160964969
+    ],
+    [
+      "conf_entropy",
+      "loss",
+      0.9443898328691648
+    ],
+    [
+      "logit_max",
+      "logit_diff_top2",
+      0.8925325585538522
+    ],
+    [
+      "logit_max",
+      "margin_loss",
+      -0.8925159669211319
+    ],
+    [
+      "logit_max",
+      "energy",
+      -0.9990098493442605
+    ],
+    [
+      "logit_diff_top2",
+      "margin_loss",
+      -0.9999962324532188
+    ],
+    [
+      "logit_diff_top2",
+      "energy",
+      -0.8887869211190538
+    ],
+    [
+      "margin_loss",
+      "energy",
+      0.888763143854373
+    ]
+  ]
+}

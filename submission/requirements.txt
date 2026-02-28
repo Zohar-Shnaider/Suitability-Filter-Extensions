@@ -1,0 +1,14 @@
+numpy==1.24.4
+scipy==1.8.1
+scikit-learn==1.6.1
+matplotlib==3.9.4
+seaborn==0.13.2
+pandas==2.3.0
+tqdm==4.67.1
+pillow==10.2.0
+torch==2.0.1
+torchvision==0.15.2
+wilds==2.0.0
+transformers==4.32.1
+diffusers==0.17.0.dev0
+accelerate==0.21.0

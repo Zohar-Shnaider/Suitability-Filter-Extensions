@@ -1,0 +1,112 @@
+/home/benny/Repos/Reliable_ml_course/DiffusionSat/src/diffusers/models/cross_attention.py:30: FutureWarning: Importing from cross_attention is deprecated. Please import from diffusers.models.attention_processor instead.
+  deprecate(
+Available scales: [5, 10, 25, 50, 100, 180]
+
+Loading DenseNet-121 on cuda...
+
+--- Extracting synthetic logits ---
+  [cached] /home/benny/Repos/Reliable_ml_course/results/synthetic_scaling/scale_005/logits.pkl
+  [cached] /home/benny/Repos/Reliable_ml_course/results/synthetic_scaling/scale_010/logits.pkl
+  [cached] /home/benny/Repos/Reliable_ml_course/results/synthetic_scaling/scale_025/logits.pkl
+  [cached] /home/benny/Repos/Reliable_ml_course/results/synthetic_scaling/scale_050/logits.pkl
+  scale_100: 6200 images
+Extracting features:   0%|          | 0/97 [00:00<?, ?it/s]Extracting features:   1%|          | 1/97 [00:01<02:03,  1.28s/it]Extracting features:   3%|▎         | 3/97 [00:01<00:35,  2.68it/s]Extracting features:   5%|▌         | 5/97 [00:01<00:19,  4.67it/s]Extracting features:   7%|▋         | 7/97 [00:01<00:13,  6.88it/s]Extracting features:   9%|▉         | 9/97 [00:01<00:09,  8.95it/s]Extracting features:  11%|█▏        | 11/97 [00:01<00:08,  9.73it/s]Extracting features:  13%|█▎        | 13/97 [00:02<00:08,  9.69it/s]Extracting features:  15%|█▌        | 15/97 [00:02<00:09,  8.87it/s]Extracting features:  18%|█▊        | 17/97 [00:02<00:09,  8.88it/s]Extracting features:  20%|█▉        | 19/97 [00:02<00:09,  8.65it/s]Extracting features:  22%|██▏       | 21/97 [00:03<00:08,  8.56it/s]Extracting features:  23%|██▎       | 22/97 [00:03<00:09,  7.73it/s]Extracting features:  25%|██▍       | 24/97 [00:03<00:07,  9.39it/s]Extracting features:  27%|██▋       | 26/97 [00:03<00:09,  7.71it/s]Extracting features:  29%|██▉       | 28/97 [00:03<00:07,  9.11it/s]Extracting features:  31%|███       | 30/97 [00:04<00:08,  7.68it/s]Extracting features:  33%|███▎      | 32/97 [00:04<00:07,  9.00it/s]Extracting features:  35%|███▌      | 34/97 [00:04<00:08,  7.58it/s]Extracting features:  37%|███▋      | 36/97 [00:04<00:06,  9.03it/s]Extracting features:  39%|███▉      | 38/97 [00:05<00:07,  7.65it/s]Extracting features:  41%|████      | 40/97 [00:05<00:06,  8.98it/s]Extracting features:  43%|████▎     | 42/97 [00:05<00:07,  7.76it/s]Extracting features:  45%|████▌     | 44/97 [00:05<00:05,  9.00it/s]Extracting features:  47%|████▋     | 46/97 [00:06<00:06,  7.71it/s]Extracting features:  49%|████▉     | 48/97 [00:06<00:05,  8.89it/s]Extracting features:  52%|█████▏    | 50/97 [00:06<00:06,  7.67it/s]Extracting features:  54%|█████▎    | 52/97 [00:06<00:04,  9.00it/s]Extracting features:  56%|█████▌    | 54/97 [00:07<00:05,  7.67it/s]Extracting features:  58%|█████▊    | 56/97 [00:07<00:04,  8.99it/s]Extracting features:  60%|█████▉    | 58/97 [00:07<00:05,  7.67it/s]Extracting features:  62%|██████▏   | 60/97 [00:07<00:04,  9.06it/s]Extracting features:  64%|██████▍   | 62/97 [00:08<00:04,  7.60it/s]Extracting features:  66%|██████▌   | 64/97 [00:08<00:03,  9.04it/s]Extracting features:  68%|██████▊   | 66/97 [00:08<00:04,  7.56it/s]Extracting features:  70%|███████   | 68/97 [00:08<00:03,  9.03it/s]Extracting features:  72%|███████▏  | 70/97 [00:09<00:03,  7.82it/s]Extracting features:  74%|███████▍  | 72/97 [00:09<00:02,  9.05it/s]Extracting features:  76%|███████▋  | 74/97 [00:09<00:02,  7.86it/s]Extracting features:  78%|███████▊  | 76/97 [00:09<00:02,  8.94it/s]Extracting features:  80%|████████  | 78/97 [00:10<00:02,  7.87it/s]Extracting features:  81%|████████▏ | 79/97 [00:10<00:02,  8.11it/s]Extracting features:  84%|████████▎ | 81/97 [00:10<00:01,  8.85it/s]Extracting features:  85%|████████▍ | 82/97 [00:10<00:01,  7.80it/s]Extracting features:  86%|████████▌ | 83/97 [00:10<00:01,  8.13it/s]Extracting features:  88%|████████▊ | 85/97 [00:10<00:01,  8.96it/s]Extracting features:  89%|████████▊ | 86/97 [00:10<00:01,  7.78it/s]Extracting features:  91%|█████████ | 88/97 [00:11<00:00,  9.12it/s]Extracting features:  92%|█████████▏| 89/97 [00:11<00:00,  8.57it/s]Extracting features:  93%|█████████▎| 90/97 [00:11<00:00,  7.68it/s]Extracting features:  94%|█████████▍| 91/97 [00:11<00:00,  8.15it/s]Extracting features:  96%|█████████▌| 93/97 [00:11<00:00,  8.51it/s]Extracting features:  97%|█████████▋| 94/97 [00:11<00:00,  7.94it/s]Extracting features:  98%|█████████▊| 95/97 [00:12<00:00,  8.23it/s]Extracting features: 100%|██████████| 97/97 [00:12<00:00,  9.24it/s]Extracting features: 100%|██████████| 97/97 [00:12<00:00,  7.92it/s]
+  saved → /home/benny/Repos/Reliable_ml_course/results/synthetic_scaling/scale_100/logits.pkl
+  scale_180: 11160 images
+Extracting features:   0%|          | 0/175 [00:00<?, ?it/s]Extracting features:   1%|          | 1/175 [00:00<01:59,  1.46it/s]Extracting features:   2%|▏         | 3/175 [00:00<00:38,  4.52it/s]Extracting features:   3%|▎         | 5/175 [00:01<00:34,  5.00it/s]Extracting features:   4%|▍         | 7/175 [00:01<00:23,  7.14it/s]Extracting features:   5%|▌         | 9/175 [00:01<00:25,  6.42it/s]Extracting features:   6%|▋         | 11/175 [00:01<00:19,  8.29it/s]Extracting features:   7%|▋         | 13/175 [00:02<00:23,  7.04it/s]Extracting features:   9%|▊         | 15/175 [00:02<00:18,  8.77it/s]Extracting features:  10%|▉         | 17/175 [00:02<00:21,  7.44it/s]Extracting features:  11%|█         | 19/175 [00:02<00:17,  9.01it/s]Extracting features:  12%|█▏        | 21/175 [00:03<00:20,  7.61it/s]Extracting features:  13%|█▎        | 23/175 [00:03<00:16,  9.14it/s]Extracting features:  14%|█▍        | 25/175 [00:03<00:19,  7.51it/s]Extracting features:  15%|█▌        | 27/175 [00:03<00:16,  8.97it/s]Extracting features:  17%|█▋        | 29/175 [00:04<00:19,  7.64it/s]Extracting features:  18%|█▊        | 31/175 [00:04<00:15,  9.20it/s]Extracting features:  19%|█▉        | 33/175 [00:04<00:18,  7.56it/s]Extracting features:  20%|██        | 35/175 [00:04<00:15,  9.11it/s]Extracting features:  21%|██        | 37/175 [00:04<00:18,  7.65it/s]Extracting features:  22%|██▏       | 39/175 [00:05<00:14,  9.16it/s]Extracting features:  23%|██▎       | 41/175 [00:05<00:18,  7.39it/s]Extracting features:  25%|██▍       | 43/175 [00:05<00:14,  8.87it/s]Extracting features:  26%|██▌       | 45/175 [00:05<00:17,  7.64it/s]Extracting features:  27%|██▋       | 47/175 [00:06<00:14,  9.06it/s]Extracting features:  28%|██▊       | 49/175 [00:06<00:16,  7.59it/s]Extracting features:  29%|██▉       | 51/175 [00:06<00:13,  9.08it/s]Extracting features:  30%|███       | 53/175 [00:06<00:16,  7.57it/s]Extracting features:  31%|███▏      | 55/175 [00:07<00:13,  9.06it/s]Extracting features:  33%|███▎      | 57/175 [00:07<00:15,  7.58it/s]Extracting features:  34%|███▎      | 59/175 [00:07<00:12,  9.20it/s]Extracting features:  35%|███▍      | 61/175 [00:07<00:15,  7.39it/s]Extracting features:  36%|███▌      | 63/175 [00:08<00:12,  8.98it/s]Extracting features:  37%|███▋      | 65/175 [00:08<00:14,  7.51it/s]Extracting features:  38%|███▊      | 67/175 [00:08<00:11,  9.11it/s]Extracting features:  39%|███▉      | 69/175 [00:08<00:13,  7.58it/s]Extracting features:  41%|████      | 71/175 [00:09<00:11,  9.13it/s]Extracting features:  42%|████▏     | 73/175 [00:09<00:13,  7.58it/s]Extracting features:  43%|████▎     | 75/175 [00:09<00:10,  9.14it/s]Extracting features:  44%|████▍     | 77/175 [00:09<00:13,  7.53it/s]Extracting features:  45%|████▌     | 79/175 [00:09<00:10,  9.20it/s]Extracting features:  46%|████▋     | 81/175 [00:10<00:12,  7.67it/s]Extracting features:  47%|████▋     | 83/175 [00:10<00:09,  9.20it/s]Extracting features:  49%|████▊     | 85/175 [00:10<00:11,  7.51it/s]Extracting features:  50%|████▉     | 87/175 [00:10<00:09,  9.14it/s]Extracting features:  51%|█████     | 89/175 [00:11<00:11,  7.60it/s]Extracting features:  52%|█████▏    | 91/175 [00:11<00:09,  9.17it/s]Extracting features:  53%|█████▎    | 93/175 [00:11<00:10,  7.56it/s]Extracting features:  54%|█████▍    | 95/175 [00:11<00:08,  9.14it/s]Extracting features:  55%|█████▌    | 97/175 [00:12<00:10,  7.44it/s]Extracting features:  57%|█████▋    | 99/175 [00:12<00:08,  9.01it/s]Extracting features:  58%|█████▊    | 101/175 [00:12<00:09,  7.66it/s]Extracting features:  59%|█████▉    | 103/175 [00:12<00:07,  9.25it/s]Extracting features:  60%|██████    | 105/175 [00:13<00:09,  7.69it/s]Extracting features:  61%|██████    | 107/175 [00:13<00:07,  9.31it/s]Extracting features:  62%|██████▏   | 109/175 [00:13<00:08,  7.44it/s]Extracting features:  63%|██████▎   | 111/175 [00:13<00:07,  9.11it/s]Extracting features:  65%|██████▍   | 113/175 [00:14<00:08,  7.66it/s]Extracting features:  66%|██████▌   | 115/175 [00:14<00:06,  9.19it/s]Extracting features:  67%|██████▋   | 117/175 [00:14<00:07,  7.60it/s]Extracting features:  68%|██████▊   | 119/175 [00:14<00:06,  9.26it/s]Extracting features:  69%|██████▉   | 121/175 [00:15<00:07,  7.55it/s]Extracting features:  70%|███████   | 123/175 [00:15<00:05,  9.10it/s]Extracting features:  71%|███████▏  | 125/175 [00:15<00:06,  7.63it/s]Extracting features:  73%|███████▎  | 127/175 [00:15<00:05,  9.18it/s]Extracting features:  74%|███████▎  | 129/175 [00:16<00:05,  7.85it/s]Extracting features:  75%|███████▍  | 131/175 [00:16<00:04,  9.52it/s]Extracting features:  76%|███████▌  | 133/175 [00:16<00:05,  7.81it/s]Extracting features:  77%|███████▋  | 135/175 [00:16<00:04,  9.03it/s]Extracting features:  78%|███████▊  | 137/175 [00:17<00:04,  7.92it/s]Extracting features:  79%|███████▉  | 139/175 [00:17<00:03,  9.17it/s]Extracting features:  81%|████████  | 141/175 [00:17<00:04,  7.94it/s]Extracting features:  82%|████████▏ | 143/175 [00:17<00:03,  9.24it/s]Extracting features:  83%|████████▎ | 145/175 [00:17<00:03,  7.72it/s]Extracting features:  84%|████████▍ | 147/175 [00:18<00:03,  9.28it/s]Extracting features:  85%|████████▌ | 149/175 [00:18<00:03,  7.81it/s]Extracting features:  86%|████████▋ | 151/175 [00:18<00:02,  9.13it/s]Extracting features:  87%|████████▋ | 153/175 [00:18<00:02,  7.72it/s]Extracting features:  89%|████████▊ | 155/175 [00:19<00:02,  8.91it/s]Extracting features:  90%|████████▉ | 157/175 [00:19<00:02,  7.78it/s]Extracting features:  90%|█████████ | 158/175 [00:19<00:02,  8.04it/s]Extracting features:  91%|█████████▏| 160/175 [00:19<00:01,  9.94it/s]Extracting features:  93%|█████████▎| 162/175 [00:19<00:01,  7.91it/s]Extracting features:  94%|█████████▎| 164/175 [00:20<00:01,  9.66it/s]Extracting features:  95%|█████████▍| 166/175 [00:20<00:01,  7.82it/s]Extracting features:  96%|█████████▌| 168/175 [00:20<00:00,  9.46it/s]Extracting features:  97%|█████████▋| 170/175 [00:20<00:00,  7.78it/s]Extracting features:  98%|█████████▊| 172/175 [00:21<00:00,  9.49it/s]Extracting features:  99%|█████████▉| 174/175 [00:21<00:00,  7.64it/s]Extracting features: 100%|██████████| 175/175 [00:21<00:00,  8.13it/s]
+  saved → /home/benny/Repos/Reliable_ml_course/results/synthetic_scaling/scale_180/logits.pkl
+
+Loading real logits from /home/benny/Repos/Reliable_ml_course/results/logits/fmow_ERM_best_0_main.pkl...
+
+--- Running evaluation ---
+
+Real ref:  11,327 samples, acc=0.6004
+OOD test:  22,108 samples, acc=0.5284
+
+--- Real-only baselines ---
+  12 sig+LR  OOD AUC=0.8202  CV=0.8455  [0s]
+  kNN TV     OOD AUC=0.8132  CV=0.8381  [5s]
+
+============================================================
+Scale 5/cls  (310 synth images, acc=0.5484)
+============================================================
+  [synth-only] 12 sig+LR ...
+    OOD AUC=0.8140  CV=0.8187  [0s]
+  [synth-only] kNN TV ...
+    OOD AUC=0.7456  CV=0.7382  [0s]
+  [augmented]  12 sig+LR ...
+    OOD AUC=0.8202  CV=0.8449  [0s]
+  [augmented]  kNN TV ...
+    OOD AUC=0.8138  CV=0.8389  [5s]
+
+============================================================
+Scale 10/cls  (620 synth images, acc=0.4839)
+============================================================
+  [synth-only] 12 sig+LR ...
+    OOD AUC=0.8169  CV=0.8284  [0s]
+  [synth-only] kNN TV ...
+    OOD AUC=0.7434  CV=0.7864  [0s]
+  [augmented]  12 sig+LR ...
+    OOD AUC=0.8203  CV=0.8451  [0s]
+  [augmented]  kNN TV ...
+    OOD AUC=0.8132  CV=0.8371  [5s]
+
+============================================================
+Scale 25/cls  (1,550 synth images, acc=0.4865)
+============================================================
+  [synth-only] 12 sig+LR ...
+    OOD AUC=0.8175  CV=0.8428  [0s]
+  [synth-only] kNN TV ...
+    OOD AUC=0.7562  CV=0.7859  [0s]
+  [augmented]  12 sig+LR ...
+    OOD AUC=0.8202  CV=0.8453  [0s]
+  [augmented]  kNN TV ...
+    OOD AUC=0.8156  CV=0.8379  [6s]
+
+============================================================
+Scale 50/cls  (3,100 synth images, acc=0.5142)
+============================================================
+  [synth-only] 12 sig+LR ...
+    OOD AUC=0.8174  CV=0.8237  [0s]
+  [synth-only] kNN TV ...
+    OOD AUC=0.7716  CV=0.8259  [1s]
+  [augmented]  12 sig+LR ...
+    OOD AUC=0.8201  CV=0.8412  [0s]
+  [augmented]  kNN TV ...
+    OOD AUC=0.8149  CV=0.8382  [7s]
+
+============================================================
+Scale 100/cls  (6,200 synth images, acc=0.4990)
+============================================================
+  [synth-only] 12 sig+LR ...
+    OOD AUC=0.8190  CV=0.8284  [0s]
+  [synth-only] kNN TV ...
+    OOD AUC=0.7743  CV=0.8465  [2s]
+  [augmented]  12 sig+LR ...
+    OOD AUC=0.8205  CV=0.8395  [0s]
+  [augmented]  kNN TV ...
+    OOD AUC=0.8154  CV=0.8394  [9s]
+
+============================================================
+Scale 180/cls  (11,160 synth images, acc=0.5097)
+============================================================
+  [synth-only] 12 sig+LR ...
+    OOD AUC=0.8170  CV=0.8438  [0s]
+  [synth-only] kNN TV ...
+    OOD AUC=0.7795  CV=0.8678  [4s]
+  [augmented]  12 sig+LR ...
+    OOD AUC=0.8193  CV=0.8448  [0s]
+  [augmented]  kNN TV ...
+    OOD AUC=0.8126  CV=0.8513  [12s]
+
+Method / Variant                          5/cls      10/cls      25/cls      50/cls     100/cls     180/cls      Real
+---------------------------------------------------------------------------------------------------------------
+12 sig+LR, synth-only                    0.814      0.817      0.818      0.817      0.819      0.817     0.820
+12 sig+LR, augmented                     0.820      0.820      0.820      0.820      0.820      0.819     0.820
+kNN TV, synth-only                       0.746      0.743      0.756      0.772      0.774      0.779     0.813
+kNN TV, augmented                        0.814      0.813      0.816      0.815      0.815      0.813     0.813
+
+Results saved to /home/benny/Repos/Reliable_ml_course/results/synthetic_scaling_results.json
+Figure saved to /home/benny/Repos/Reliable_ml_course/results/figures/synthetic_scaling.png
+
+Done.

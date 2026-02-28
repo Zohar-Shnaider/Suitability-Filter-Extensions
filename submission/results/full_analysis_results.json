@@ -1,0 +1,44 @@
+{
+  "tv_analysis": {
+    "tv_distance": 1.0,
+    "signal_aucs": {
+      "conf_max": 0.58999184,
+      "conf_std": 0.61649064,
+      "conf_entropy": 0.6635509199999999,
+      "logit_mean": 0.8846328800000001,
+      "logit_max": 0.82208236,
+      "logit_std": 0.9433975200000001,
+      "logit_diff_top2": 0.51852576,
+      "loss": 0.58999184,
+      "margin_loss": 0.51852576,
+      "class_prob_ratio": 0.51852576,
+      "top_k_probs_sum": 0.67645756,
+      "energy": 0.90389348
+    },
+    "combined_12_signals_auc": 0.9779673340474198
+  },
+  "synthetic_vs_real": {
+    "synthetic_holdout": {
+      "accuracy": 0.6266,
+      "auc": 0.6088882887663375,
+      "true_positive_rate": 0.5192307692307693,
+      "false_positive_rate": 0.35953026196928634,
+      "false_negative_rate": 0.4807692307692308,
+      "mean_predicted_correctness": 0.4524127962586008,
+      "actual_accuracy": 0.1144
+    },
+    "real_holdout": {
+      "accuracy": 0.7758,
+      "auc": 0.6106361456971212,
+      "true_positive_rate": 0.2972027972027972,
+      "false_positive_rate": 0.16237579042457093,
+      "false_negative_rate": 0.7027972027972028,
+      "mean_predicted_correctness": 0.3376163678764861,
+      "actual_accuracy": 0.1144
+    }
+  },
+  "accuracies": {
+    "id": 0.3142,
+    "ood": 0.1144
+  }
+}
