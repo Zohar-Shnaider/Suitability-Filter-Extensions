@@ -8,7 +8,7 @@ We identify two fundamental weaknesses:
 
 1. **Redundant signal engineering:** The paper's 12 hand-crafted logit signals (softmax confidence, entropy, margin, energy, etc.) are highly correlated. We show that a single TV distance computed directly on raw logit distributions achieves comparable shift detection performance, making the 12-signal approach unnecessarily complex.
 
-2. **Circular hold-out assumption (Section 5):** The paper requires a hold-out set that "reflects" the inference-time distribution. This is circular: if you knew the deployment distribution, the problem would already be solved. We replace this assumption with DiffusionSat conditional generation, creating synthetic hold-out sets that cover diverse shift scenarios without prior knowledge of the deployment distribution.
+2. **Circular hold-out assumption:** The paper requires a hold-out set that "reflects" the inference-time distribution. This is circular: if you knew the deployment distribution, the problem would already be solved. We replace this assumption with DiffusionSat conditional generation, creating synthetic hold-out sets that cover diverse shift scenarios without prior knowledge of the deployment distribution.
 
 ## Repository Structure
 
